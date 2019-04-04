@@ -1,0 +1,50 @@
+.login_form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1.login_title {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+input::placeholder {
+    color: #9c9c9c;
+}
+
+.btn_login {
+    width: 100%;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+
+.failed {
+    color:#af0000;
+    font-weight: bold;
+}
+
+.message {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.green {
+    color: #4F800D;
+}
+
+.red {
+    color: #af0000;
+}
